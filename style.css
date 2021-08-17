@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    
+}
+body {
+    font-size: 1.6rem;
+}
+:root {
+    --first-color: #afabd1;
+    --second-color: #d8bcdf;
+    --third-color:#efe0ec;
+    --fourth-color: #f9f5f7;
+    --fifth-color: #caa4ca;
+
+}
+.barra {
+    background-color: var(--first-color);
+}
+.barra_box {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 10rem;
+    
+}
+.barra_logo {
+    height: 8rem;
+    width: 8rem;
+    border: 0.1rem solid var(--fourth-color);
+    border-radius: 4rem;
+    padding: 0.5rem;
+}
+.barra_navegacion{
+      
+    height: 8vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.item {
+    color: var(--fourth-color);
+    width: 8rem;
+    height: 4rem;
+    padding-top: 1rem;
+    display: flex;
+    justify-content: center;
+
+}
+.main {
+    background-color: white
+}
+.section {
+    border:var(--first-color) 0.1rem solid;
+    display:flex ;
+    flex-direction: column;
+    margin: 2rem;
+    
+
+}
+.tittle {
+    height: 6rem;
+    color: var(--first-color);
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.imagen {
+    border: white 0.1rem solid;
+    display: flex;
+    justify-content: center;
+    
+}
+.main_presentacion-imagen {
+    
+    width: 70vw;
+    border-radius: 5rem;
+    box-shadow: inset 0.5rem -3em 3em rgba(0, 0, 0, 0.1),
+    0.3em 0.3em 1em rgba(0,0,0,0.3);
+    
+}
+.content_box {
+    height: 8rem;
+    color: var(--first-color);
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.content {
+    margin: 2rem;
+}
+
+    
+
+
+
+
+
